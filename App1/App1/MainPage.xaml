@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage"
+             Title="Tela principal">
+
+    <!--<StackLayout BackgroundColor="Red" Padding="20,40,60,80">
+        <Label Text="Start" HorizontalOptions="Start" BackgroundColor="Silver"/>
+        <Label Text="Center" HorizontalOptions="Center" BackgroundColor="Silver" Margin="50,60"/>
+        <Label Text="End" HorizontalOptions="End" BackgroundColor="Silver"/>
+        <Label Text="Fill" HorizontalOptions="Fill" BackgroundColor="Silver"/>
+
+        --><!--<BoxView Color="Silver" Margin="10,20,30,40"/>
+        <BoxView Color="Blue" Margin="50,60"/>
+        <BoxView Color="Gray" Margin="70"/>--><!--
+    </StackLayout>-->
+    <!--<ScrollView>
+        <StackLayout x:Name="Stack">
+            <Button x:Name="Botao" Text="Adicionar" Clicked="Botao_Clicked"/>
+        </StackLayout>
+    </ScrollView>-->
+    <!--<Button Text="Abrir tela" Clicked="Botao_Clicked"/>-->
+    
+</ContentPage>

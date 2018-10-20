@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Page5">
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20">
+            <Entry Text="{Binding Title}" />
+            <Entry Text="{Binding Notes}" />
+            <Switch IsToggled="{Binding Completed}" />
+            <Button Text="Botão" Clicked="Button_Clicked"/>
+            <Editor x:Name="edt"/>
+            <Label Text="{Binding Path=Text.Length, Source={x:Reference edt}, StringFormat='Contagem:{0:000}'}"/>
+            <Editor x:Name="newTitle"/>
+            <Button Text="somar A" Clicked="Button_Clicked_2"/>
+            <Button Text="Mudar titulo" Clicked="Button_Clicked_1"/>
+            <Button Text="Complet" Clicked="Button_Clicked_3"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
